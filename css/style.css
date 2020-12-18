@@ -1,0 +1,156 @@
+  @font-face{
+    font-family:"Bebas-Regular";
+    src: url("fonts/Bebas-Regular.otf");
+  }
+  @font-face{
+    font-family:"MADE TOMMY Bold_PERSONAL USE";
+    src:url("fonts/tommy.otf");
+  }
+  @font-face{
+    font-family:"theboldfont";
+    src:url("fonts/theboldfont.ttf");
+  }
+  @font-face {
+    font-family: "StephenGillion";
+    src: url("fonts/StephenGillion.otf");
+  }
+
+  .font-Tommy{
+    font-family:  "MADE TOMMY Bold_PERSONAL USE","Courier New",sans-serif;
+  }
+
+  .font-StephenGillion{
+    font-family:  "StephenGillion","Courier New",sans-serif;
+  }
+  .font-bebas{
+    font-family: "Bebas-Regular","Courier New",sans-serif;
+  }
+
+  div.content-page{
+    margin-top:150px;
+    min-height:720px;
+  }
+
+  div.title-page{
+    font-family:  "StephenGillion","Courier New",sans-serif;
+    font-size: 5rem;
+    text-shadow: 0px 0px 5px #fff;
+  }
+
+  footer{
+    background-color:rgba(0,0,0,.7);
+    color:#fff;
+    text-align: center;
+    margin-top:10px;
+    padding:10px;
+  }
+
+  /* Home Page Style */
+  .myBG {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw; 
+  height: 100vh;
+  }
+  .myBGColor-White {
+    background-color:rgba(255,255,255,.8);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw; 
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .myBGColor-White-3 {
+    background-color:rgba(255,255,255,.3);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw; 
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .alpha-black {
+      background-color:rgba(0,0,0,.7);
+  }
+  ul li a {
+      font-family: "Bebas-Regular","Courier New",sans-serif;
+      font-size: 1.2rem;
+      border-radius: 5px;
+  }
+  ul li a:hover{
+     background-color:  rgba(83, 39,18, .5);
+     color:white !important;
+     box-shadow: 0 0 3px #fff;
+  }
+
+  a.active-button{
+    background-color:  rgba(83, 39,18, .5);
+    color:white !important;
+     box-shadow: 0 0 3px #fff;
+  }
+  .nav-link{
+    color:goldenrod;
+    margin:5px;
+  }
+
+  .avatar-logo img{
+    border:5px solid #fff ;
+    border-radius: 50%;
+    margin-right:10px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .avatar-logo img:hover{
+    background-image: url('Images/ZedClothingLogo.png');
+  }
+  .avatar-logo p{
+    font-family:  "StephenGillion","Courier New",sans-serif;
+    color:#1a1a1a;
+    text-shadow: 0px 0px 5px #fff;
+    font-size: 3.5rem;
+  }
+  .avatar-logo p span.title{
+    font-family: "theboldfont","Courier New",sans-serif;
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 768px){
+    .avatar-logo {
+      text-align: center;
+    }
+    .avatar-logo img{
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+  .card-description{
+    font-family:  "StephenGillion","Courier New",sans-serif;
+    font-size:2rem;
+  }
+
+  .card-title{
+    font-size: 30px!important;
+    text-align: center;
+  }
+
+  .card{
+    width: 18rem;
+    margin: 5px;
+  }
+
+  @media screen and (max-width: 1080px){
+    .card{
+      width:100%;
+    }
+    
+  }
+
+  
+
+  
