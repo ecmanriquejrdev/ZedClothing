@@ -37,6 +37,11 @@
     text-shadow: 0px 0px 5px #fff;
   }
 
+  div.title-page-notextshadow{
+    font-family:  "StephenGillion","Courier New",sans-serif;
+    font-size: 5rem;
+  }
+
   footer{
     background-color:rgba(0,0,0,.7);
     color:#fff;
@@ -65,6 +70,26 @@
 
   .myBGColor-White-3 {
     background-color:rgba(255,255,255,.3);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw; 
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .myBGColor-White-5 {
+    background-color:rgba(255,255,255,.5);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw; 
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .myBGColor-White-4 {
+    background-color:rgba(255,255,255,.4);
     position: fixed;
     right: 0;
     bottom: 0;
